@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemHideShow"
+        android:title="Hide/Show note's descriptions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nightDayModeItem"
+        android:title="Night/Day mode change"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemDelete"
+        android:title="Delete all notes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemClose"
+        android:title="Close App"
+        app:showAsAction="never" />
+</menu>
